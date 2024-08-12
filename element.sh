@@ -2,7 +2,7 @@
 PSQL="psql --username=postgres --dbname=periodic_table -t -q --no-align -c"
 if [ -z "$1" ]; then
     echo "Please provide an element as an argument."
-    exit 0  # Exit with a non-zero status to indiate an error
+    exit 0  # Exit with a non-zero status to indicate 5 an error
 fi
 
 NOT_FOUND_ELEMENTS(){
